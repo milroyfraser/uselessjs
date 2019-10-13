@@ -1,0 +1,19 @@
+{
+  "name": "uselessjs",
+  "version": "0.0.1",
+  "description": "A another useless js lib.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milroyfraser/uselessjs.git"
+  },
+  "author": "Milroy E. Fraser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milroyfraser/uselessjs/issues"
+  },
+  "homepage": "https://github.com/milroyfraser/uselessjs#readme"
+}
