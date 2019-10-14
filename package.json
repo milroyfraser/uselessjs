@@ -4,6 +4,7 @@
   "description": "A another useless js lib.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/milroyfraser/uselessjs/issues"
   },
-  "homepage": "https://github.com/milroyfraser/uselessjs#readme"
+  "homepage": "https://github.com/milroyfraser/uselessjs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "jest": "^24.9.0"
+  }
 }
