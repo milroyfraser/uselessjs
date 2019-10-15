@@ -1,8 +1,8 @@
 {
-  "name": "uselessjs",
-  "version": "0.0.1",
+  "name": "@milroyfraser/uselessjs",
+  "version": "0.0.4",
   "description": "A another useless js lib.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "b": "babel src -d dist",
     "t": "jest",
