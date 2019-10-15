@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: npm run b
       - run: npm run cs
       - run: npm run t
 
@@ -28,6 +27,8 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@milroyfraser'
+      - run: npm install
+      - run: npm run b
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.git_token}}
