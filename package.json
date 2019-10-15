@@ -1,13 +1,13 @@
 {
   "name": "@milroyfraser/uselessjs",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "description": "A another useless js lib.",
   "main": "dist/index.js",
   "scripts": {
     "b": "babel src -d dist",
     "t": "jest",
     "cs": "./node_modules/.bin/eslint src/index.js",
-    "csf": "./node_modules/.bin/eslint src/index.js --fix" 
+    "csf": "./node_modules/.bin/eslint src/index.js --fix"
   },
   "repository": {
     "type": "git",
