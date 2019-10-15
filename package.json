@@ -1,6 +1,6 @@
 {
   "name": "@milroyfraser/uselessjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A another useless js lib.",
   "main": "dist/index.js",
   "scripts": {
